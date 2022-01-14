@@ -38,11 +38,16 @@ body {
 }
 
 .sidebar h1 {
+  width: 100%;
   font-size: 40px;
   margin-bottom: 10px;
   margin-top: -30px;
+  text-align: right;
+  word-wrap: break-word;
 }
-
+.sidebar p {
+  padding-right: 40px;
+}
 .main-slide {
   height: 100%;
   position: absolute;
